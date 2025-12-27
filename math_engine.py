@@ -1,4 +1,4 @@
 def calculate_average(numbers):
-    #BUG: This will crash with a ZeroDivisionError if the list is empty
-    # A perfect case for the AI to fix!
+    if not numbers:
+        return 0
     return sum(numbers) / len(numbers)
