@@ -14,3 +14,4 @@ class UserService:
         
     def get_user_emails(self):
         return [user['email'] for user in self.users]
+#TEST
